@@ -8,6 +8,8 @@ etcd_kubeadm_enabled: false
 ## Directory where the binaries will be installed
 bin_dir: /usr/local/bin
 
+ansible_ssh_user: your ssh-user
+ansible_ssh_pass: your ssh-password
 ## The access_ip variable is used to define how other nodes should access
 ## the node.  This is used in flannel to allow other flannel nodes to see
 ## this node for example.  The access_ip is really useful AWS and Google
